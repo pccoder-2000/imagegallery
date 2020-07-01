@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- main css -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- font awesome -->
+  <link rel="stylesheet" href="css/all.css">
+  <title>My Image gallery</title>
+  <style>
+  </style>
+</head>
+
+<body>
+
+
+  <header id="header">
+    <nav class="navbar navbar-expand-lg px-4">
+      <!--
+    https://www.iconfinder.com/icons/2427887/dessert_donut_doughnut_fat_sweets_icon
+    Creative Commons (Attribution 3.0 Unported);
+    https://www.iconfinder.com/korawan_m
+         -->
+      <a href="#" class="navbar-brand smaller_image">
+        <i class="fa fa-camera-retro fa-3x" aria-hidden="true"></i>
+      </a>
+      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myNavbar">
+        <span class="toggler-icon">
+          <i class="fas fa-bars"></i>
+        </span>
+      </button>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="navbar-nav text-capitalize mx-auto">
+          <li class="nav-item active">
+            <a href="#header" class="nav-link">MY PHOTO GALLERY</a>
+          </li>
+        <li class="nav-item active">
+          <a href="#about" class="nav-link">Nature</a>
+        </li>
+        <li class="nav-item active">
+          <a href="#store" class="nav-link">Animals</a>
+        </li>
+      </ul>
+
+                  <div class="nav-info-items d-none d-lg-flex">
+          <!-- single info -->
+          <div class="nav-info align-items-center d-flex justify-content-between mx-lg-5">
+            <span class="info-icon mx-lg-3">
+              <i class="fas fa-phone"></i>
+            </span>
+            <p class="mb-0">+ 123 456 789 </p>
+          </div>
+          </div>
+      </div>
+    </nav>
+    <!-- end of nav -->
+    <!-- banner -->
+    <div class="container-fluid">
+      <div class="row max-height justify-content-center align-items-center">
+        <div class="col-10 mx-auto banner text-center">
+          <h1 class="text-capitalize">
+            welcome to <strong class="banner-title">my photo album</strong>
+          </h1>
+          <a href="#store" class="btn banner-link text-uppercase my-2">explore</a>
+        </div>
+
+              </div>
+      </div>
+    </div>
+    <!-- end of banner -->
+  </header>
+  <!-- end of heder -->
+  <!-- about -->
+  <section class="about py-5" id="about">
+    <h1 class="headingp">Nature</h1>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="img/n1.jpg" alt="First slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="img/n2.jpg" alt="Second slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="img/n3.jpg" alt="Third slide">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  </section>
+  <!-- end of about -->
+  <!-- store section -->
+  <section id="store" class="gallery-block cards-gallery">
+    <div class="container">
+      <!-- section title -->
+<h1 class="headingp">Animals</h1>
+      <div class="row">
+
+        <div class="col-10 mx-auto col-sm-6 text-center">
+          <div class="card-border-0 transform-on-hover">
+            <a href="img/2.jpg" class="light-box"> <img src="img/3.jpg" class="card-img-top"></a>
+          </div>
+        </div>
+        <div class="col-10 mx-auto col-sm-6 text-center">
+          <div class="card-border-0 transform-on-hover">
+            <a href="img/2.jpg" class="light-box"> <img src="img/4.jpg" class="card-img-top"></a>
+          </div>
+        </div>
+        <div class="col-10 mx-auto col-sm-6 text-center">
+          <div class="card-border-0 transform-on-hover">
+            <a href="img/2.jpg" class="light-box"> <img src="img/5.jpg" class="card-img-top"></a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+
+        <div class="col-10 mx-auto col-sm-6 text-center">
+          <div class="card-border-0 transform-on-hover">
+            <a href="img/2.jpg" class="light-box"> <img src="img/6.jpg" class="card-img-top"></a>
+          </div>
+        </div>
+        <div class="col-10 mx-auto col-sm-6 text-center">
+          <div class="card-border-0 transform-on-hover">
+            <a href="img/2.jpg" class="light-box"> <img src="img/7.jpg" class="card-img-top"></a>
+          </div>
+        </div>
+        </div>
+
+
+  <footer>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6 footer-title py-5">
+          <div class="footer-icons mt-3 d-flex justify-content-around flex-wrap">
+            <a href="#" class="footer-icon">
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a href="#" class="footer-icon">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="footer-icon">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#" class="footer-icon">
+              <i class="fab fa-google-plus"></i>
+            </a>
+
+          </div>
+        </div>
+        <div class="col-md-6 footer-contact text-center text-capitalize p-5">
+          <h3 class="mb-5">contact</h3>
+          <p class="d-flex flew-wrap">
+            <span class="mr-4 footer-icon">
+              <i class="fas fa-map"></i>
+            </span>
+            <span>
+              ****xyz, new delhi India
+            </span>
+          </p>
+          <p class="d-flex flew-wrap">
+            <span class="mr-4 footer-icon">
+              <i class="fas fa-phone"></i>
+            </span>
+            <span>
+              123-456-789
+            </span>
+          </p>
+          <p class="d-flex flew-wrap">
+            <span class="mr-4 footer-icon">
+              <i class="fas fa-envelope"></i>
+            </span>
+            <span>
+              email@email.com
+            </span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- jquery -->
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <!-- bootstrap js -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <!-- script js -->
+  <script src="js/app.js"></script>
+</body>
+
+</html>
